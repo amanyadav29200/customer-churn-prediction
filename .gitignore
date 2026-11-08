@@ -1,0 +1,13 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.matplotlib_cache/
+
+# Jupyter-generated state
+.ipynb_checkpoints/
+
+# Keep the public IBM source dataset in the repository.

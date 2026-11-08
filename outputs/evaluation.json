@@ -1,0 +1,51 @@
+{
+  "dataset": "IBM Telco Customer Churn sample",
+  "rows_after_cleaning": 7043,
+  "train_rows": 5634,
+  "test_rows": 1409,
+  "churn_rate": 0.2653698707936959,
+  "selected_model": "Gradient Boosting",
+  "best_parameters": {
+    "classifier__n_estimators": 120,
+    "classifier__max_depth": 3,
+    "classifier__learning_rate": 0.05
+  },
+  "test_metrics": {
+    "accuracy": 0.6685592618878637,
+    "precision": 0.4398447606727037,
+    "recall": 0.9090909090909091,
+    "f1": 0.5928509154315605,
+    "f2": 0.749228735125606,
+    "roc_auc": 0.8457128833087912,
+    "average_precision": 0.6620580097649578,
+    "decision_threshold": 0.31
+  },
+  "classification_report": {
+    "Stayed": {
+      "precision": 0.9465408805031447,
+      "recall": 0.5816425120772947,
+      "f1-score": 0.720526630760024,
+      "support": 1035.0
+    },
+    "Churned": {
+      "precision": 0.4398447606727037,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.5928509154315605,
+      "support": 374.0
+    },
+    "accuracy": 0.6685592618878637,
+    "macro avg": {
+      "precision": 0.6931928205879242,
+      "recall": 0.7453667105841019,
+      "f1-score": 0.6566887730957922,
+      "support": 1409.0
+    },
+    "weighted avg": {
+      "precision": 0.8120452461407708,
+      "recall": 0.6685592618878637,
+      "f1-score": 0.6866368383307513,
+      "support": 1409.0
+    }
+  },
+  "note": "Held-out metrics describe this public sample, not expected real-world business performance."
+}
